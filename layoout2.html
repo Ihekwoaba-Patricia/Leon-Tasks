@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT 2 HOME-PAGE</title>
+  <!--   <link rel="stylesheet" href="normalize.css"> -->
+    <link rel="stylesheet" href="layout2.css">
+</head>
+<body>
+    <header>
+        <div class="navbar1">
+            <div class="navbar"></div>
+            <div class="navbar"></div>
+            <div class="navbar"></div>
+        </div>
+        <div class="bbc1">
+            <span class="bbc">B</span>
+            <span class="bbc">B</span>
+            <span class="bbc">C</span>
+        </div>
+        <div class="link">
+            <a href="#">Sign In</a>
+        </div>
+        <nav class="navv">
+            <ul>
+                <li>Home</li>
+                <li>News</li>
+                <li>Sport</li>
+                <li>Reel</li>
+                <li>Worklife</li>
+                <li>Travel</li>
+                <li>Future</li>
+                <li>Culture</li>
+                <li>More</li>
+            </ul>
+        </nav>
+
+        <form action="">
+            <input type="text" placeholder="Search">
+        </form>
+    </header>
+    <div class="clear"></div>
+    <h1>WELCOME TO BBC.com</h1>
+    <section>
+        <article class="art1">
+            <div class="pics1"> <h1>Isreal and UAE strike historic peace deal</h1>
+            <h5>Isreal and UAE agreed to normalize reactions marking the third Isreal-Arab peace deal</h5></div>
+        </article>
+        <div class="clear"></div>
+        <article class="art2">
+            <div class="pic1 pic"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sapiente.</h4></div>
+
+            <div class="pic2 pic"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sapiente.</h4></div>
+
+        <div class="clear"></div>
+
+            <div class="pic3 pic"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sapiente.</h4></div>
+
+            <div class="pic4 pic"><h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, sapiente.</h4></div> 
+        </article>
+        <div class="clear clear1"></div>
+    </section>
+    <h1 class="news">| NEWS</h1>
+    <section>
+        <article class="art3 art">
+            <figure>
+                <img src="designer-vs-developer.jpg" class="img1">
+                <figcaption>
+                    <h1>Biden and Harris says Technology is powerful</h1>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo sit veniam non itaque sunt, saepe repudiandae consequuntur ipsam odit esse porro ipsa quidem reprehenderit magnam voluptates? Facere, fugit quia.</P>
+                </figcaption>
+            </figure>
+        </article>
+
+        <article class="art3 art">
+            <figure>
+                <img src="med5.jpg" class="img2">
+                <figcaption>
+                    <h1>Biden and Harris says Technology is powerful</h1>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo sit veniam non itaque sunt, saepe repudiandae consequuntur ipsam odit esse porro ipsa quidem reprehenderit magnam voluptates? Facere, fugit quia.</P>
+                </figcaption>
+            </figure>
+        </article>
+        <div class="clear"></div>
+        <article class="art3">
+            <figure>
+                <img src="flower.jpg" class="img3">
+                <figcaption class="fig3">
+                    <h1>Biden and Harris says Technology is powerful</h1>
+                    <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt explicabo sit veniam non itaque sunt, saepe repudiandae consequuntur ipsam odit esse porro ipsa quidem reprehenderit magnam voluptates? Facere, fugit quia.</P>
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <script>
+        let navOne = document.getElementsByClassName("navv")[0];
+        let navBar = document.getElementsByClassName("navbar1")[0];
+
+        navBar.addEventListener("click", () =>{
+            navOne.classList.toggle("active");
+        })
+    </script>
+</body>
+
+</html>

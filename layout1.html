@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAYOUT ONE</title>
+    <link rel="stylesheet" href="layout1.css">
+</head>
+<body>
+   <section >
+    <article class="col3 sec1">
+    <h1>TC</h1>
+    <nav>
+        <div  class="nav1">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    <div class="nav2">
+    <h4>Join Extra Crunch</h4>
+        <ul>
+            <li>Login</li>
+            <li>Search</li>
+            <li>StartUps</li>
+            <li>Videos</li>
+            <li>Audio</li>
+            <li>Newsletters</li>
+            <li>Etra Crunch</li>
+            <li>The TC List</li>
+            <li>Advertise</li>
+            <li>Events</li>
+            <li>More</li>
+        </ul>
+    </div>
+    </nav>
+</article>
+    
+        <article class="sec2 col3">
+        <h1>What <em>China's Fintech Market</em> can teach the world</h1>
+        <p>Finance Researcher Martin Chorzemba discusses Ant Group payment Networks and more </p><br>
+        <span>Danny Crichton</span>
+        <figure>
+            <img src="devs.jpg" class="img1">
+            <figcaption>The Latest</figcaption>
+        </figure>
+    </article>
+    <P class="clear"></P><br><br>
+
+    <article class="col3 sec3">
+        <p class="p1 col1 coll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nesciunt dolor sit adipisci reiciendis aperiam dolore, nulla blanditiis eum illo unde hic architecto obcaecati perferendis minima eius fugiat rerum maxime? <br><span>Ingrid Lunder</span></p> 
+
+        <p class="col1 coll">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde ea temporibus odit quo. Vero et, accusamus delectus tempora harum! <br> <span>Ingrid Lunder</span></p>
+
+        <P class="clear"></P>
+        
+        <p class="p1 col1 coll2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ullam doloremque sit aperiam earum natus aspernatur exercitationem reprehenderit consectetur dicta <br><span>Ingrid Lunder</span></p>
+
+        <p class="p1 col1 coll2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aperiam eaque tenetur earum quasi odit, molestiae deleniti, adipisci dolorum itaque repudiandae. Labore earum expedita, nostrum rerum quibusdam praesentium cupiditate eum. <br><span>Ingrid Lunder</span></p>
+    </article>
+</section>
+    <P class="clear1"></P><br> <br>
+<section>
+        <p class="p1 pp1">Wonder Woman 1984' is coming to HBO Max (and some U.S. theaters) on Dec. 25 <br><span>Ingrid Lunder</span></p>
+
+        <p class="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda pariatur reprehenderit totam voluptas eum voluptatum tempora cum suscipit quas alias, eligendi molestias nihil blanditiis odio, veritatis necessitatibus. Maxime, dolore molestias?</p>
+
+        <p class="pp1"><img src="designer-vs-developer.jpg" class="img2"></p>
+</section>
+
+<script>
+    let nav1 = document.getElementsByClassName("nav1")[0];
+    let nav2 = document.getElementsByClassName("nav2")[0];
+
+    nav1.addEventListener("click",() =>{
+        nav2.classList.toggle('active');
+    })
+</script>
+</body>
+</html>

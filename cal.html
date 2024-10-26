@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not So Good Calculator</title>
+    <style>
+        .cal{
+            text-align: center;
+        }
+        .keys{
+            border: 1px solid black;
+            width: 50px;
+            margin: auto; 
+        }
+        .change{
+            display: block;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="cal">
+    <h1>Not so Good Calculator</h1>
+    <div class="keys">
+        <span class="change " id="zero">0</span>
+        <span class="change " id="plusThree">+3</span>
+        <span class="change" id="timesNine">*9</span>
+        <span class="change " id="minusFive">-5</span>
+        <span  class="change"id="divideTwo">/2</span>
+    </div>
+    <h2>RESULT: <span id="result"></span></h2>
+</div>
+<script>
+    let total = 0;
+
+    document.querySelector("#zero").addEventListener('click', calZero);
+    document.querySelector("#plusThree").addEventListener('click', calThree);
+    document.querySelector("#timesNine").addEventListener('click', calNine);
+    document.querySelector("#minusFive").addEventListener('click', calFive);
+    document.querySelector("#divideTwo").addEventListener("click", calTwo);
+
+    function calZero(){
+        total=0
+        document.querySelector("#result").innerText=total;
+    }
+
+    function calThree(){
+        total= total + 3
+        document.querySelector("#result").innerText=total;
+    }
+
+    function calNine(){
+        total = total * 9
+        document.querySelector("#result").innerText=total;
+    }
+
+    function calFive(){
+        total = total - 5
+        document.querySelector("#result").innerText=total;
+    }
+
+    function calTwo(){
+        total = total / 2
+        document.querySelector("#result").innerText=total;
+    }
+</script>
+</body>
+</html>
+ -->
